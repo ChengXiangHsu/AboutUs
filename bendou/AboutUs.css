@@ -1,0 +1,361 @@
+#head {
+    width: 100%;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.word {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+}
+#head_word {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    color: #174920;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#head_word2 {
+    position: absolute;
+    top: 2.7px;
+    right: 5px;
+    color: #174920;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+}
+#avatar {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+#Avatar_word {
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 160px;
+}
+#scooter {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 5px;
+    height: 200px;
+}
+#map1 {
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    height: 260px;
+    width: 100%;
+}
+#map2 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    height: 260px;
+    width: 100%;
+}
+#map3 {
+    position: absolute;
+    top: 760px;
+    left: 0px;
+    height: 260px;
+    width: 100%;
+}
+#map1_pic, #map2_pic {
+    position: absolute;
+    height: 200px;
+    top: 60px;
+    left: 60px;
+}
+#map3_pic {
+    position: absolute;
+    height: 200px;
+    top: 60px;
+    right: 60px;
+}
+#introduction {
+    position: absolute;
+    height: 200px;
+    top: 60px;
+    right: 10px;
+}
+#Campus {
+    position: absolute;
+    height: 200px;
+    top: 60px;
+    right: 135px;
+}
+#Shield {
+    position: absolute;
+    height: 200px;
+    top: 60px;
+    left: 60px;
+}
+#introduction_title, #Campus_title, #Shield_title {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.introduction_word {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.title{
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    text-align: left;
+    transform: translate(5%,0%);
+    font-weight: 1000;
+    font-size: larger;
+    color: #1C4E3B;
+}
+.pro{
+    position: absolute;
+    top: 153%;
+    width: 99%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 0;
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    height: 26%;
+    background-color: #1C4E3B;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.first{
+    top: 15%;
+}
+.second{
+    top: 43%;
+}
+.third{
+    top: 71%;
+}
+.fourth{
+    top: 99%;
+}
+.fifth{
+    top: 127%;
+}
+
+.name{
+    width: 50%;
+    height: 50%;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: larger;
+    color: aliceblue;
+    transform: translate(-5%,75%);
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.photo{
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    transform: translate(220%,-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.A{
+    background-image: url(./AboutUs/1.jpg);
+    width: 30%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.B{
+    background-image: url(./AboutUs/2.jpg);
+    width: 30%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.C{
+    background-image: url(./AboutUs/3.jpg);
+    width: 30%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.D{
+    background-image: url(./AboutUs/4.jpg);
+    width: 30%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.E{
+    background-image: url(./AboutUs/5.jpg);
+    width: 30%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.intro{
+    position: fixed;
+    width:18em;
+    height: 90%;
+    left: 40%;
+    top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5;
+}
+#per1{
+    background-image: url("./AboutUs/personal1.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0%;
+}
+#per2{
+    background-image: url("./AboutUs/personal2.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0%;
+}
+#per3{
+    background-image: url("./AboutUs/personal3.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0%;
+}
+#per4{
+    background-image: url("./AboutUs/personal4.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0%;
+}
+#per5{
+    background-image: url("./AboutUs/personal5.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0%;
+}
+#b1{
+    background-image: url("./AboutUs/cancel1.png");
+    position:absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b2{
+    background-image: url("./AboutUs/cancel2.png");
+    position:absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b3{
+    background-image: url("./AboutUs/cancel3.png");
+    position:absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b4{
+    background-image: url("./AboutUs/cancel4.png");
+    position:absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b5{
+    background-image: url("./AboutUs/cancel5.png");
+    position:absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
